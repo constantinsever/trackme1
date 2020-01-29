@@ -30,7 +30,7 @@ public class mycrontroller {
 		String id = locationData.get("id"); //<- metoda din Map
 		
 		
-		System.out.println("S-a trimis : " + id + " : " + description); // <- o parte din JSON
+		System.out.println("S-a trimis Docker : " + id + " : " + description); // <- o parte din JSON
 		 
 		Location location = new Location();
 		location.setLocation("my_location1");
