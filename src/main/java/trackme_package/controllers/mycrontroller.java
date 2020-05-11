@@ -17,7 +17,7 @@ public class mycrontroller {
 
 	 //@RequestMapping(value="savelocation", method = RequestMethod.POST)
 	 
-	//din JS : var url = "http://94.177.217.21:8080/ws/savelocation";
+	//din JS : var url = "http://94.177.217.21:8080/ws/savelocation" ;
 	
 	
 	@PostMapping(value = "/savelocation") //<- sunt impreuna
@@ -30,7 +30,7 @@ public class mycrontroller {
 		String id = locationData.get("id"); //<- metoda din Map
 		
 		
-		System.out.println("S-a trimis final prin JSON: " + id + " : " + description); // <- o parte din JSON
+		System.out.println("S-a trimis final : " + id + " : " + description); // <- o parte din JSON
 		 
 		Location location = new Location();
 		location.setLocation("my_location1");
